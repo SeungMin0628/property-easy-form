@@ -5,6 +5,14 @@ name: Check CI on PR
 
 on: pull_request
 
+on:
+  pull_request:
+    barnches:
+      - main
+  push:
+    branches:
+      - main
+
 jobs:
   build_and_preview:
     runs-on: ubuntu-latest
