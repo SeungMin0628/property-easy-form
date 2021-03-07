@@ -3,8 +3,6 @@
 
 name: Check CI on PR
 
-on: pull_request
-
 on:
   pull_request:
     barnches:
